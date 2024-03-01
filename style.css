@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: #eaecee;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+header {
+    color: #070707;
+    padding-top: 10px;
+}
+/*  */
+.container{
+    width: 800px;
+    padding: 20px;
+    margin-left: 200px;
+}
+.banner{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 95% 50%;
+    border-bottom: 1px solid #dce1e4;
+    padding-bottom: 10px;
+}
+.banner .content{
+    text-align: justify;
+    font-size: larger;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+.banner .avatar{
+    position: relative;
+    height: max-content;
+    text-align: center;
+}
+.banner img{
+    border-radius: 10px;
+    width: 70%;
+}
+/*  */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display:flow-root;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+section h2{
+    font-size: x-large;
+}
+/*  */
+.about p{
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+/*  */
+.time1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    border-bottom: 1px solid #dce1e4;
+    margin-left: 50px;
+}
+.time{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border-bottom: 1px solid #dce1e4;
+    margin-left: 50px;
+}
+.job{
+    margin-left: 100px;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    border-bottom: 1px solid #dce1e4;
+    margin-left: 50px;
+}
+.pj{
+    padding-left: 50px;
+}
+/*  */
+.like li{
+    font-size: 17px;
+    margin-left: 50px;
+}
+/*  */
+.title{
+    text-align: center;
+    padding-top: 50px;
+}
+.contact{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.contact li{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.contant form{
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+}
+
